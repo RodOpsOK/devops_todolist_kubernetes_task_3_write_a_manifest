@@ -15,8 +15,8 @@ spec:
         httpGet:
           path: /api/liveness/
           port: 8000
-      initialDelaySeconds: 60
-      periodSeconds: 5
+        initialDelaySeconds: 60
+        periodSeconds: 5
       readinessProbe:
         httpGet:
           path: /api/readiness/
